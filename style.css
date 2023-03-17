@@ -1,0 +1,370 @@
+#header {
+    background-color: #6c757e;
+}
+
+#brand {
+    margin-left: 15%;
+}
+
+#menu-button {
+    margin-right: 15%;
+}
+
+.nav-text-group {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#brand-text {
+    font-size: 16px;
+}
+
+#navbar-text {
+    font-size: 11px;
+}
+
+#navbarNavDropdown {
+    justify-content: end;
+}
+
+#menu-icon {
+    font-size: 12px;
+}
+
+.navbar-toggler {
+    background-color: #1bbc9b !important;
+}
+
+#jovan-cont,
+/* #srv-cont, */
+#about-cont,
+#wwo-cont {
+    background-color: #1bbc9b;
+}
+
+#jovanr {
+    scroll-margin-top: 90px;
+}
+
+#about {
+    scroll-margin-top: 115px;
+}
+
+#portfolio {
+    scroll-margin-top: 20px;
+}
+
+#contact {
+    scroll-margin-top: 50px;
+}
+
+#covek {
+    height: 180px;
+}
+
+table {
+    font-size: 24px;
+}
+
+.td-bordered {
+    width: 80px;
+}
+
+#btnModal {
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+}
+
+.maliX {
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.btn-close {
+    float: right;
+}
+
+.modal-img {
+    width: 400px;
+}
+
+#modal-cont {
+    box-sizing: content-box;
+    width: 400px;
+}
+
+#modal-text,
+#about-text {
+    font-size: 12px;
+}
+
+textarea {
+    min-height: 120px !important;
+}
+
+#bottom-cont {
+    background-color: #2d3e50;
+}
+
+#footer-cont {
+    background-color: #1b252f;
+    font-size: 10px;
+}
+
+a:hover {
+    color: #1bbc9b !important;
+}
+
+.footer-icon:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer-icon {
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 10%;
+    display: inline-block;
+    padding-top: 4px;
+    margin: 2px;
+}
+
+.footer-icon-2:hover {
+    background-color: white;
+    color: black;
+}
+
+.navbar-toggler {
+    float: right;
+}
+
+.wwo-h1 {
+    font-size: 12px;
+}
+
+.wwo-div-icon {
+    width: 96px;
+    height: 96px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.ikonica {
+    font-size: 32px;
+}
+
+.opis-ikonice1 {
+    font-size: 16px;
+}
+
+.opis-ikonice2 {
+    font-size: 12px;
+}
+
+.projects-text {
+    color: #1bbc9b;
+}
+
+.proj-img {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#slika:hover+.proj-img {
+    width: 50%;
+}
+
+
+.hover-part-2 {
+    background-color: green;
+    opacity: 0;
+}
+
+.hover-part-2:hover {
+    opacity: 0.5;
+}
+
+#prr:hover+#proj-img-1 {
+    width: 70%;
+    padding: 20%;
+}
+
+.proj-text-div {
+    position: absolute;
+    width: 70%;
+    top: 60%;
+    left: 15%;
+}
+
+#proj-h1 {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#poljeDugmeta {
+    position: relative;
+}
+
+.portf-item {
+    width: 275px;
+    position: relative;
+}
+
+.hover-part {
+    background-color: green;
+    opacity: 0;
+    transition: 2s ease-in-out all;
+    vertical-align: middle;
+}
+
+.hover-part:hover {
+    opacity: 1;
+}
+
+#crtica {
+    width: 80px;
+    border-radius: 1px;
+    background-color: white;
+    height: 4px;
+}
+
+
+#questionNo {
+    background-color: lightblue;
+}
+
+.none {
+    display: none;
+}
+
+.qdiv {
+    width: 660px;
+}
+
+.labelRadio {
+    display: inline;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.radio2reda {
+    margin-top: 10px;
+}
+
+.labelDvaReda {
+    margin-top: 5px;
+    padding-top: 0px;
+    padding-left: 14px;
+}
+
+.labelField {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.radioDiv {
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+#floatingName {
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+#otherTextDiv {
+    padding: 0px;
+    margin: 0px;
+}
+
+#otherText {
+    padding: 10px;
+}
+
+.ftext {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#faSmiley {
+    font-size: 72px;
+}
+
+@media (max-width: 576px) {
+    .portf-item {
+        width: 400px;
+    }
+
+    #brand {
+        margin-left: 0%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #menu-button {
+        margin-right: 0%;
+    }
+
+    #btnModal {
+        width: 400px;
+    }
+
+    .proj-img {
+        height: 270px;
+        margin-bottom: 16px;
+    }
+
+    .proj-text-div {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+    }
+
+    .nav-text-group {
+        margin-left: 0%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .portf-item {
+        width: 400px;
+    }
+
+    #btnModal {
+        width: 400px;
+    }
+
+    .proj-img {
+        margin-bottom: 16px;
+    }
+
+    #brand {
+        /* margin-left: 0%; */
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .nav-text-group {
+        margin-left: 15%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 992px) {
+    .proj-img {
+        margin-bottom: 16px;
+    }
+
+}
